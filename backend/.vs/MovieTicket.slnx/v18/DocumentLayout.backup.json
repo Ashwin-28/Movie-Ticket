@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "A:\\Codeing\\HCLPratice\\MovieTicket\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|A:\\Codeing\\HCLPratice\\MovieTicket\\MovieTicket\\Controllers\\MovieController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MovieTicket\\Controllers\\MovieController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|A:\\Codeing\\HCLPratice\\MovieTicket\\MovieTicket\\Controllers\\ParkingController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MovieTicket\\Controllers\\ParkingController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|A:\\Codeing\\HCLPratice\\MovieTicket\\MovieTicket\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MovieTicket\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|A:\\Codeing\\HCLPratice\\MovieTicket\\MovieTicket\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MovieTicket\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|A:\\Codeing\\HCLPratice\\MovieTicket\\MovieTicket\\Model\\Parking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MovieTicket\\Model\\Parking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|A:\\Codeing\\HCLPratice\\MovieTicket\\MovieTicket\\Model\\Movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MovieTicket\\Model\\Movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|A:\\Codeing\\HCLPratice\\MovieTicket\\MovieTicket\\Data\\AppDBContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MovieTicket\\Data\\AppDBContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|A:\\Codeing\\HCLPratice\\MovieTicket\\MovieTicket\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MovieTicket\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "A:\\Codeing\\HCLPratice\\MovieTicket\\MovieTicket\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MovieTicket\\Properties\\launchSettings.json",
+              "ToolTip": "A:\\Codeing\\HCLPratice\\MovieTicket\\MovieTicket\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MovieTicket\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-20T05:48:59.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ParkingController.cs",
+              "DocumentMoniker": "A:\\Codeing\\HCLPratice\\MovieTicket\\MovieTicket\\Controllers\\ParkingController.cs",
+              "RelativeDocumentMoniker": "MovieTicket\\Controllers\\ParkingController.cs",
+              "ToolTip": "A:\\Codeing\\HCLPratice\\MovieTicket\\MovieTicket\\Controllers\\ParkingController.cs",
+              "RelativeToolTip": "MovieTicket\\Controllers\\ParkingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T05:39:07.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "A:\\Codeing\\HCLPratice\\MovieTicket\\MovieTicket\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "MovieTicket\\Controllers\\MovieController.cs",
+              "ToolTip": "A:\\Codeing\\HCLPratice\\MovieTicket\\MovieTicket\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "MovieTicket\\Controllers\\MovieController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T05:34:54.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "A:\\Codeing\\HCLPratice\\MovieTicket\\MovieTicket\\appsettings.json",
+              "RelativeDocumentMoniker": "MovieTicket\\appsettings.json",
+              "ToolTip": "A:\\Codeing\\HCLPratice\\MovieTicket\\MovieTicket\\appsettings.json",
+              "RelativeToolTip": "MovieTicket\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-20T05:23:16.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Parking.cs",
+              "DocumentMoniker": "A:\\Codeing\\HCLPratice\\MovieTicket\\MovieTicket\\Model\\Parking.cs",
+              "RelativeDocumentMoniker": "MovieTicket\\Model\\Parking.cs",
+              "ToolTip": "A:\\Codeing\\HCLPratice\\MovieTicket\\MovieTicket\\Model\\Parking.cs",
+              "RelativeToolTip": "MovieTicket\\Model\\Parking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T05:17:24.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "A:\\Codeing\\HCLPratice\\MovieTicket\\MovieTicket\\Model\\Movie.cs",
+              "RelativeDocumentMoniker": "MovieTicket\\Model\\Movie.cs",
+              "ToolTip": "A:\\Codeing\\HCLPratice\\MovieTicket\\MovieTicket\\Model\\Movie.cs",
+              "RelativeToolTip": "MovieTicket\\Model\\Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T05:17:09.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "A:\\Codeing\\HCLPratice\\MovieTicket\\MovieTicket\\Data\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "MovieTicket\\Data\\AppDBContext.cs",
+              "ToolTip": "A:\\Codeing\\HCLPratice\\MovieTicket\\MovieTicket\\Data\\AppDBContext.cs",
+              "RelativeToolTip": "MovieTicket\\Data\\AppDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T05:15:32.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "A:\\Codeing\\HCLPratice\\MovieTicket\\MovieTicket\\Program.cs",
+              "RelativeDocumentMoniker": "MovieTicket\\Program.cs",
+              "ToolTip": "A:\\Codeing\\HCLPratice\\MovieTicket\\MovieTicket\\Program.cs",
+              "RelativeToolTip": "MovieTicket\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T05:09:12.874Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
