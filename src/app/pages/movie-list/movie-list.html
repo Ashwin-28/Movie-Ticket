@@ -1,0 +1,40 @@
+<div class="page-container">
+    <h2>Movie Tickets</h2>
+
+    <!-- Add Movie Form -->
+    <div class="form-section">
+        <h3>Add New Ticket</h3>
+        <div class="form-row">
+            <input type="text" placeholder="Movie Name" [(ngModel)]="movieName" />
+            <input type="text" placeholder="Seat Number" [(ngModel)]="seatNumber" />
+            <input type="text" placeholder="Show Time" [(ngModel)]="showTime" />
+            <button (click)="addMovie()">Add</button>
+        </div>
+    </div>
+
+    <!-- Movie Table -->
+    <div class="table-section">
+        <table *ngIf="movies().length > 0; else noData">
+            <thead>
+                <tr>
+                    <th>Ticket ID</th>
+                    <th>Movie Name</th>
+                    <th>Seat Number</th>
+                    <th>Show Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let movie of movies()">
+                    <td>{{ movie.ticketId }}</td>
+                    <td>{{ movie.movieName }}</td>
+                    <td>{{ movie.seatNumber }}</td>
+                    <td>{{ movie.showTime }}</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <ng-template #noData>
+            <p class="no-data">No movie tickets found. Add one above!</p>
+        </ng-template>
+    </div>
+</div>

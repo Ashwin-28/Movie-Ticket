@@ -1,0 +1,26 @@
+.movie-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.movie-card h4 {
+    margin: 0 0 8px 0;
+    color: #1e293b;
+    font-size: 1.1rem;
+}
+
+.movie-card p {
+    margin: 4px 0;
+    color: #475569;
+    font-size: 0.9rem;
+}
+
+.ticket-id {
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 0.8rem;
+    color: #94a3b8;
+}

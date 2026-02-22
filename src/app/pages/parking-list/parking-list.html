@@ -1,0 +1,41 @@
+<div class="page-container">
+    <h2>Parking Tickets</h2>
+
+    <!-- Add Parking Form -->
+    <div class="form-section">
+        <h3>Add New Parking Ticket</h3>
+        <div class="form-row">
+            <input type="text" placeholder="Ticket ID" [(ngModel)]="ticketId" />
+            <input type="text" placeholder="Parking Slot" [(ngModel)]="parkingSlot" />
+            <input type="text" placeholder="Customer Name" [(ngModel)]="customerName" />
+            <input type="text" placeholder="Vehicle Number" [(ngModel)]="vechicleNumber" />
+            <button (click)="addParking()">Add</button>
+        </div>
+    </div>
+
+    <!-- Parking Table -->
+    <div class="table-section">
+        <table *ngIf="parkingList().length > 0; else noData">
+            <thead>
+                <tr>
+                    <th>Ticket ID</th>
+                    <th>Parking Slot</th>
+                    <th>Customer Name</th>
+                    <th>Vehicle Number</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let p of parkingList()">
+                    <td>{{ p.ticketId }}</td>
+                    <td>{{ p.parkingSlot }}</td>
+                    <td>{{ p.customerName }}</td>
+                    <td>{{ p.vechicleNumber }}</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <ng-template #noData>
+            <p class="no-data">No parking tickets found. Add one above!</p>
+        </ng-template>
+    </div>
+</div>
