@@ -8,7 +8,7 @@ import { Movie } from '../models/movie.model';
 })
 export class MovieService {
     private http = inject(HttpClient);
-    private apiUrl = 'https://localhost:7055/api/Movie';
+    private apiUrl = '/api/Movie';
 
     getAllMovies(): Observable<Movie[]> {
         return this.http.get<Movie[]>(this.apiUrl);

@@ -3,26 +3,23 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { MovieService } from '../../services/movie.service';
 import { Movie } from '../../models/movie.model';
-
+import { MoviecardComp } from '../../components/moviecard-comp/moviecard-comp';
 @Component({
     selector: 'app-movie-list',
-    imports: [CommonModule, FormsModule],
+    imports: [CommonModule, FormsModule, MoviecardComp],
     templateUrl: './movie-list.html',
     styleUrl: './movie-list.css',
 })
 export class MovieList implements OnInit {
     private movieService = inject(MovieService);
     movies = signal<Movie[]>([]);
-
     // Form fields
     movieName = '';
     seatNumber = '';
     showTime = '';
-
     ngOnInit(): void {
         this.loadMovies();
     }
-
     loadMovies(): void {
         this.movieService.getAllMovies().subscribe({
             next: (data) => {
@@ -33,7 +30,6 @@ export class MovieList implements OnInit {
             },
         });
     }
-
     addMovie(): void {
         const newMovie: Movie = {
             ticketId: 0,
@@ -41,7 +37,6 @@ export class MovieList implements OnInit {
             seatNumber: this.seatNumber,
             showTime: this.showTime,
         };
-
         this.movieService.createMovie(newMovie).subscribe({
             next: (createdMovie) => {
                 this.movies.update(list => [...list, createdMovie]);

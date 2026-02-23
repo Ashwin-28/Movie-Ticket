@@ -8,7 +8,7 @@ import { Parking } from '../models/parking.model';
 })
 export class ParkingService {
     private http = inject(HttpClient);
-    private apiUrl = 'https://localhost:7055/api/Parking';
+    private apiUrl = '/api/Parking';
 
     getAllParking(): Observable<Parking[]> {
         return this.http.get<Parking[]>(this.apiUrl);
