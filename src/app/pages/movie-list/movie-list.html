@@ -7,6 +7,8 @@
             <input type="text" placeholder="Movie Name" [(ngModel)]="movieName" />
             <input type="text" placeholder="Seat Number" [(ngModel)]="seatNumber" />
             <input type="text" placeholder="Show Time" [(ngModel)]="showTime" />
+            <input type="number" placeholder="Price" [(ngModel)]="price" />
+            <input type="number" placeholder="Total Seats" [(ngModel)]="totalSeats" />
             <button (click)="addMovie()">Add</button>
         </div>
     </div>
@@ -19,6 +21,8 @@
                     <th>Movie Name</th>
                     <th>Seat Number</th>
                     <th>Show Time</th>
+                    <th>Price</th>
+                    <th>Total Seats</th>
                 </tr>
             </thead>
             <tbody>
@@ -27,6 +31,8 @@
                     <td>{{ movie.movieName }}</td>
                     <td>{{ movie.seatNumber }}</td>
                     <td>{{ movie.showTime }}</td>
+                    <td>{{ movie.price | currency :'INR' }}</td>
+                    <td>{{ movie.totalSeats }}</td>
                 </tr>
             </tbody>
         </table>
@@ -35,10 +41,8 @@
             <p class="no-data">No movie tickets found. Add one above!</p>
         </ng-template>
 
-        <div>
+        <!-- <div>
             <h3>Movie Cards</h3>
-            <!-- <div class="movie-cards">
-                <app-moviecard-comp *ngFor="let movie of movies()" [movie]="movie"></app-moviecard-comp>
-            </div> -->
+        </div> -->
     </div>
 </div>

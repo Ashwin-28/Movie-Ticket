@@ -3,4 +3,6 @@ export interface Movie {
     movieName: string;
     seatNumber: string;
     showTime: string;
+    price: number;
+    totalSeats: number;
 }
